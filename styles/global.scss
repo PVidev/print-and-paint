@@ -373,6 +373,68 @@ footer {
       flex-direction: column;
     }
   }
+
+  .hero {
+    padding: $xl-4 0;
+    height: auto !important;
+    
+    .hero-title {
+      font-size: $xl-6;
+      line-height: normal;
+      margin: $xl-4 0;
+    }
+    
+    .sub-heading {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      
+      .titleSm {
+        font-size: $xl-2;
+      }
+      
+      span {
+        font-size: $xl-4;
+        margin: 0 5px;
+      }
+    }
+  }
+  
+  .hero-sec {
+    .heading-title {
+      padding: $xl-4 0;
+      
+      p {
+        font-size: $lg;
+        line-height: 1.6;
+      }
+    }
+    
+    .hero-content {
+      .box {
+        text-align: center;
+        padding: $xl-2;
+        
+        h3 {
+          font-size: $xl-2;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    .hero-title {
+      font-size: $xl-5;
+    }
+    
+    .sub-heading {
+      .titleSm {
+        font-size: $xl;
+      }
+    }
+  }
 }
 
 //gallery
