@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     // Създаване на email съобщение
     const mailOptions = {
       from: process.env.SMTP_USER,
-      to: 'support@printpaintstudio.com',
+      to: 'support@printnpaint.net',
       subject: 'Нова заявка от контактна форма',
       html: `
         <h2>Нова заявка от контактна форма</h2>
