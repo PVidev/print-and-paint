@@ -140,7 +140,7 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>support@printpaintstudio.com</h3>
+                  <h3>support@printnpaint.net</h3>
                   <span>Пишете ни по всяко време!</span>
                 </div>
               </div>
